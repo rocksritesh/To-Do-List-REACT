@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: black;
+  color: white;
+}
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  
+}
+
+form input{
+  flex-basis: 80%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+}
+
+form button{
+  flex-basis: 20%; 
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.outerDiv{
+  width: 1170px;
+  margin: auto;
+}
+
+.outerDiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 20px;
+ 
+}
+
+.outerDiv ul li{
+  color: black;
+  background-color: white;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 25px;
+  position: relative; 
+}
+
+.outerDiv ul li span{
+right: 190px;
+position: fixed;
+color: black;
+cursor: pointer;
+padding: auto;
+}
+
+button{
+  font-size: 25px;
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.edit{
+  right: 250px;
+  position: fixed;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding: auto;
+  border-radius: 5px;
+  
+}
